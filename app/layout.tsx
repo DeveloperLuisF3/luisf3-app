@@ -1,4 +1,3 @@
-import Head from "next/head";
 import "./globals.css";
 import { Inter } from "next/font/google";
 
@@ -16,9 +15,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <Head>
+      <head>
         <link rel="icon" type="image/x-icon" href="./favicon.ico" />
-      </Head>
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
